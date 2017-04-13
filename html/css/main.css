@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    height:100%;
+    overflow:hidden;
+}
+
+.main {
+    height: 13.34rem;
+    width: 100%;
+    background: url(../img/background.png);
+    background-size: 100%;
+     height:100%;
+    overflow:hidden;
+}
+
+.main .book {
+    height: 13.30rem;
+    width: 7.5rem;
+    position: relative;
+}
+
+.main .book .bg1 {
+    height: 13.34rem;
+    width: 7.5rem;
+}
+
+.main .book .btn1 {
+    width: 2.26rem;
+    height: 0.93rem;
+    position: absolute;
+    bottom: 2.72rem;
+    left: 1rem;
+}
+
+.main .book .btn2 {
+    width: 2.26rem;
+    height: 0.93rem;
+    position: absolute;
+    bottom: 2.72rem;
+    left: 3.7rem;
+}
+
+.shade {
+    display: none;
+    height: 13.34rem;
+    width: 7.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.shade .guize {
+    height: 13.34rem;
+    width: 7.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shade .close {
+    width: 0.54rem;
+    height: 0.53rem;
+    position: absolute;
+    right: 0.85rem;
+    top: 2.10rem;
+}
+
+
+/*答题页*/
+
+.main2 {
+    height: 13.34rem;
+    width: 7.5rem;
+    background: url(../img/bg2.png);
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main2 .explain {
+    position: absolute;
+    top: 1.54rem;
+    left: 0.67rem;
+    width: 5.7rem;
+    height: 0.34rem;
+}
+
+.main2 .explain img {
+    width: 5.7rem;
+    height: 0.34rem;
+}
+
+.main2 .poem {
+    width: 7rem;
+    height: 8rem;
+    margin: 0 auto;
+    margin-top: 2.2rem;
+    position: relative;
+}
+
+.main2 .poem .text {
+    position: absolute;
+    width: 3.36rem;
+    height: 7rem;
+    top: 0.0rem;
+    left: 1.88rem;
+}
+
+.main2 .poem .choice {
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    background: url(./../img/点击前.png);
+    background-size: 100%;
+}
+
+.main2 .poem .choice1 {
+    top: -0.2rem;
+    left: 1.28rem;
+}
+
+.main2 .poem .choice2 {
+    top: 0.68rem;
+   left: 1.28rem;
+}
+
+.main2 .poem .choice3 {
+    top: 1.58rem;
+   left: 1.28rem;
+}
+
+.main2 .poem .choice4 {
+    top: 3.5rem;
+    left: 1.28rem;
+}
+
+.main2 .poem .choice5 {
+    top: 4.5rem;
+   left: 1.28rem;
+}
+
+.main2 .poem .choice6 {
+    top: 5.4rem;
+   left: 1.28rem;
+}
+
+.main2 .poem .answer-box {
+    width: 6.5rem;
+    height: 1.2rem;
+    background: url(./../img/minsubg.png);
+    background-size: 100%;
+    position: absolute;
+    bottom: -0.6rem;
+    left: 0rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.main2 .poem .answer-box .answer {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.05rem;
+    display: inline-block;
+}
+
+.main2 .poem .answer-box .answer1 {
+    background: url(./../img/民.png);
+    background-size: 100%;
+}
+
+.main2 .poem .answer-box .answer2 {
+    background: url(./../img/宿.png);
+    background-size: 100%;
+}
+
+.main2 .poem .answer-box .answer3 {
+    background: url(./../img/加.png);
+    background-size: 100%;
+}
+
+.main2 .poem .answer-box .answer4 {
+    background: url(./../img/上.png);
+    background-size: 100%;
+}
+
+.main2 .poem .answer-box .answer5 {
+    background: url(./../img/线.png);
+    background-size: 100%;
+}
+
+.main2 .poem .answer-box .answer6 {
+    background: url(./../img/了.png);
+    background-size: 100%;
+}
+
+.main2 .poem .btn {
+    width: 1.7rem;
+    height: 0.56rem;
+    background: url(./../img/btn-tijiao.png);
+    background-size: 100%;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 2.5rem;
+}
+
+.shade .wanfa {
+    display: none;
+    height: 13.34rem;
+    width: 7.5rem;
+    background: url(./../img/wanfa.png);
+    background-size: 100%;
+}
+
+.shade .true {
+    display: none;
+    height: 13.34rem;
+    width: 7.5rem;
+    background: url(./../img/true.png);
+    background-size: 100%;
+}
+
+.shade .true .close2 {
+    width: 0.7rem;
+    height: 0.68rem;
+    position: absolute;
+    top: 2.64rem;
+    right: 0.9rem;
+}
+.shade .true .award {
+    width: 2.17rem;
+    height: 0.71rem;
+    position: absolute;
+    top: 7.2rem;
+    right: 2.78rem;
+}
+.shade .true .award-start {
+    width: 2.17rem;
+    height: 0.71rem;
+    position: absolute;
+    top: 7.2rem;
+    right: 2.78rem;
+}
+
+.shade .true2 {
+    display: none;
+    background: url(./../img/wrong.png);
+    background-size: 100%;
+}
+
+
+
+.shade .luck {
+  display:none;
+    height: 13.34rem;
+    width: 7.5rem;
+    background: url(./../img/bg-choujiang.png);
+    background-size: 100%;
+}
+.shade .luck .close2{
+   width: 0.7rem;
+    height: 0.68rem;
+    position: absolute;
+    top: 1.6rem;
+    right: 0.9rem;
+}
+.shade .luck .choujiang2{
+  width:3rem;
+  height:2.41rem;
+  position:absolute;
+  top:5.4rem;
+  left:2.08rem;
+}
+
+.shade .luck1 {
+  display:none;
+    height: 13.34rem;
+    width: 7.5rem;
+    background: url(./../img/bg-luck1.png);
+    background-size: 100%;
+}
+.shade .luck1 .close2{
+   width: 0.7rem;
+    height: 0.68rem;
+    position: absolute;
+    top: 1.6rem;
+    right: 0.9rem;
+}
+.shade .luck1 .award{
+   width: 2.17rem;
+    height: 0.71rem;
+    position: absolute;
+    top: 7.2rem;
+    right: 2.78rem;
+}
+.shade .luck1 .money{
+  font-size: 0.34rem;
+  position:absolute;
+  top:5.7rem;
+  left:3.08rem;
+  color:#f6eed5;
+}
+
+.shade .luck2 {
+  display:none;
+    height: 13.34rem;
+    width: 7.5rem;
+    background: url(./../img/bg-luck2.png);
+    background-size: 100%;
+}
+.shade .luck2 .close2{
+   width: 0.7rem;
+    height: 0.68rem;
+    position: absolute;
+    top: 1.6rem;
+    right: 0.9rem;
+}
+.shade .luck2 .award{
+   width: 2.17rem;
+    height: 0.71rem;
+    position: absolute;
+    top: 7.2rem;
+    right: 2.78rem;
+}
+.shade {
+    display: none;
+}
+.shade2 {
+    display: none;
+    height: 13.34rem;
+    width: 7.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5)
+}
+.shade2 .share{
+  width:3.09rem;
+  height:0.87rem;
+  position:absolute;
+  top:0.1rem;
+  right:0.2rem;
+}
+
+/*分享页*/
+.QR {
+    height: 13.34rem;
+    width: 7.5rem;
+    background: url(../img/bg-QR.jpg);
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.QR .watch{
+  position:absolute;
+  width:2.66rem;
+  height:0.62rem;
+  left:2.45rem;
+  bottom:3.3rem;
+  
+}
+.QR .QR-code{
+  width:2.23rem;
+  height:2.13rem;
+  position:absolute;
+  left:2.7rem;
+  bottom:4.4rem;
+}
+/*# sourceMappingURL=main.css.map */
