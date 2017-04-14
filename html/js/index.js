@@ -23,8 +23,8 @@ $(function () {
     var true5 = 0;
     var true6 = 0;
     $(document).on('click', '.poem .choice', function () {
-
-        $(this).css('background-image', 'url(img/点击效果.png)').siblings().removeAttr('background-image');
+        $('.choice.checked-btn').css('background-image', '');
+        $(this).css('background-image', 'url(img/点击效果.png)').addClass('checked-btn').siblings().removeClass('checked-btn');
         if ($(this).hasClass('choice1')) {
             i = 1
         } else if ($(this).hasClass('choice2')) {
@@ -41,6 +41,7 @@ $(function () {
 
     });
     $(document).on('click', '.answer-box .answer', function () {
+        
         if ($(this).hasClass('answer1')) {
             k = 1
         } else if ($(this).hasClass('answer2')) {
@@ -61,122 +62,122 @@ $(function () {
         }
         if (i == 1) {
             if (k == 1) {
-                $('.poem .choice1').css('background-image', 'url(img/民.png)');
+                $('.poem .choice1').css('background-image', 'url(img/民.png)').removeClass('checked-btn');
                 true1 = true;
             } else if (k == 2) {
-                $('.poem .choice1').css('background-image', 'url(img/宿.png)');
+                $('.poem .choice1').css('background-image', 'url(img/宿.png)').removeClass('checked-btn');
                 true1 = false;
             } else if (k == 3) {
-                $('.poem .choice1').css('background-image', 'url(img/加.png)');
+                $('.poem .choice1').css('background-image', 'url(img/加.png)').removeClass('checked-btn');
                 true1 = false;
             } else if (k == 4) {
-                $('.poem .choice1').css('background-image', 'url(img/上.png)');
+                $('.poem .choice1').css('background-image', 'url(img/上.png)').removeClass('checked-btn');
                 true1 = false;
             } else if (k == 5) {
-                $('.poem .choice1').css('background-image', 'url(img/线.png)');
+                $('.poem .choice1').css('background-image', 'url(img/线.png)').removeClass('checked-btn');
                 true1 = false;
             } else if (k == 6) {
-                $('.poem .choice1').css('background-image', 'url(img/了.png)');
+                $('.poem .choice1').css('background-image', 'url(img/了.png)').removeClass('checked-btn');
                 true1 = false;
             }
         } else if (i == 2) {
             if (k == 1) {
-                $('.poem .choice2').css('background-image', 'url(img/民.png)');
+                $('.poem .choice2').css('background-image', 'url(img/民.png)').removeClass('checked-btn');
                 true2 = false;
             } else if (k == 2) {
-                $('.poem .choice2').css('background-image', 'url(img/宿.png)');
+                $('.poem .choice2').css('background-image', 'url(img/宿.png)').removeClass('checked-btn');
                 true2 = true;
             } else if (k == 3) {
-                $('.poem .choice2').css('background-image', 'url(img/加.png)');
+                $('.poem .choice2').css('background-image', 'url(img/加.png)').removeClass('checked-btn');
                 true2 = false;
             } else if (k == 4) {
-                $('.poem .choice2').css('background-image', 'url(img/上.png)');
+                $('.poem .choice2').css('background-image', 'url(img/上.png)').removeClass('checked-btn');
                 true2 = false;
             } else if (k == 5) {
-                $('.poem .choice2').css('background-image', 'url(img/线.png)');
+                $('.poem .choice2').css('background-image', 'url(img/线.png)').removeClass('checked-btn');
                 true2 = false;
             } else if (k == 6) {
-                $('.poem .choice2').css('background-image', 'url(img/了.png)');
+                $('.poem .choice2').css('background-image', 'url(img/了.png)').removeClass('checked-btn');
                 true2 = false;
             }
         } else if (i == 3) {
             if (k == 1) {
-                $('.poem .choice3').css('background-image', 'url(img/民.png)');
+                $('.poem .choice3').css('background-image', 'url(img/民.png)').removeClass('checked-btn');
                 true3 = false;
             } else if (k == 2) {
-                $('.poem .choice3').css('background-image', 'url(img/宿.png)');
+                $('.poem .choice3').css('background-image', 'url(img/宿.png)').removeClass('checked-btn');
                 true3 = false;
             } else if (k == 3) {
-                $('.poem .choice3').css('background-image', 'url(img/加.png)');
+                $('.poem .choice3').css('background-image', 'url(img/加.png)').removeClass('checked-btn');
                 true3 = true;
             } else if (k == 4) {
-                $('.poem .choice3').css('background-image', 'url(img/上.png)');
+                $('.poem .choice3').css('background-image', 'url(img/上.png)').removeClass('checked-btn');
                 true3 = false;
             } else if (k == 5) {
-                $('.poem .choice3').css('background-image', 'url(img/线.png)');
+                $('.poem .choice3').css('background-image', 'url(img/线.png)').removeClass('checked-btn');
                 true3 = false;
             } else if (k == 6) {
-                $('.poem .choice3').css('background-image', 'url(img/了.png)');
+                $('.poem .choice3').css('background-image', 'url(img/了.png)').removeClass('checked-btn');
                 true3 = false;
             }
         } else if (i == 4) {
             if (k == 1) {
-                $('.poem .choice4').css('background-image', 'url(img/民.png)');
+                $('.poem .choice4').css('background-image', 'url(img/民.png)').removeClass('checked-btn');
                 true4 = false;
             } else if (k == 2) {
-                $('.poem .choice4').css('background-image', 'url(img/宿.png)');
+                $('.poem .choice4').css('background-image', 'url(img/宿.png)').removeClass('checked-btn');
                 true4 = false;
             } else if (k == 3) {
-                $('.poem .choice4').css('background-image', 'url(img/加.png)');
+                $('.poem .choice4').css('background-image', 'url(img/加.png)').removeClass('checked-btn');
                 true4 = false;
             } else if (k == 4) {
-                $('.poem .choice4').css('background-image', 'url(img/上.png)');
+                $('.poem .choice4').css('background-image', 'url(img/上.png)').removeClass('checked-btn');
                 true4 = true;
             } else if (k == 5) {
-                $('.poem .choice4').css('background-image', 'url(img/线.png)');
+                $('.poem .choice4').css('background-image', 'url(img/线.png)').removeClass('checked-btn');
                 true4 = false;
             } else if (k == 6) {
-                $('.poem .choice4').css('background-image', 'url(img/了.png)');
+                $('.poem .choice4').css('background-image', 'url(img/了.png)').removeClass('checked-btn');
                 true4 = false;
             }
         } else if (i == 5) {
             if (k == 1) {
-                $('.poem .choice5').css('background-image', 'url(img/民.png)');
+                $('.poem .choice5').css('background-image', 'url(img/民.png)').removeClass('checked-btn');
                 true5 = false;
             } else if (k == 2) {
-                $('.poem .choice5').css('background-image', 'url(img/宿.png)');
+                $('.poem .choice5').css('background-image', 'url(img/宿.png)').removeClass('checked-btn');
                 true5 = false;
             } else if (k == 3) {
-                $('.poem .choice5').css('background-image', 'url(img/加.png)');
+                $('.poem .choice5').css('background-image', 'url(img/加.png)').removeClass('checked-btn');
                 true5 = false;
             } else if (k == 4) {
-                $('.poem .choice5').css('background-image', 'url(img/上.png)');
+                $('.poem .choice5').css('background-image', 'url(img/上.png)').removeClass('checked-btn');
                 true5 = false;
             } else if (k == 5) {
-                $('.poem .choice5').css('background-image', 'url(img/线.png)');
+                $('.poem .choice5').css('background-image', 'url(img/线.png)').removeClass('checked-btn');
                 true5 = true;
             } else if (k == 6) {
-                $('.poem .choice5').css('background-image', 'url(img/了.png)');
+                $('.poem .choice5').css('background-image', 'url(img/了.png)').removeClass('checked-btn');
                 true5 = false;
             }
         } else if (i == 6) {
             if (k == 1) {
-                $('.poem .choice6').css('background-image', 'url(img/民.png)');
+                $('.poem .choice6').css('background-image', 'url(img/民.png)').removeClass('checked-btn');
                 true6 = false;
             } else if (k == 2) {
-                $('.poem .choice6').css('background-image', 'url(img/宿.png)');
+                $('.poem .choice6').css('background-image', 'url(img/宿.png)').removeClass('checked-btn');
                 true6 = false;
             } else if (k == 3) {
-                $('.poem .choice6').css('background-image', 'url(img/加.png)');
+                $('.poem .choice6').css('background-image', 'url(img/加.png)').removeClass('checked-btn');
                 true6 = false;
             } else if (k == 4) {
-                $('.poem .choice6').css('background-image', 'url(img/上.png)');
+                $('.poem .choice6').css('background-image', 'url(img/上.png)').removeClass('checked-btn');
                 true6 = false;
             } else if (k == 5) {
-                $('.poem .choice6').css('background-image', 'url(img/线.png)');
+                $('.poem .choice6').css('background-image', 'url(img/线.png)').removeClass('checked-btn');
                 true6 = false;
             } else if (k == 6) {
-                $('.poem .choice6').css('background-image', 'url(img/了.png)');
+                $('.poem .choice6').css('background-image', 'url(img/了.png)').removeClass('checked-btn');
                 true6 = true;
             }
         }
@@ -225,4 +226,6 @@ $(function () {
 
     });
 })
+
+
 

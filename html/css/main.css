@@ -5,7 +5,11 @@
 html {
     font-size: 10px;
     height:100%;
-    overflow:hidden;
+    
+}
+
+body{
+    height: 100%;   
 }
 
 .main {
@@ -74,12 +78,13 @@ html {
 /*答题页*/
 
 .main2 {
-    height: 13.34rem;
+    /*height: 13.34rem;*/
     width: 7.5rem;
     background: url(../img/bg2.png);
     background-size: 100%;
     position: relative;
     overflow: hidden;
+    height: 100%;
 }
 
 .main2 .explain {
